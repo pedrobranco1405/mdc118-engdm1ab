@@ -2,12 +2,12 @@
 #include <stdio.h>
 int main() {
   float pi = 3.14;
-  float raio = 0.0;
+  float raio;
 
   printf ( "Digite o raio da pizza: " );
-  scanf( "%f" , &raio );
+  int deu_certo = scanf( "%f" , &raio );
 
   float perimetro_da_pizza = 2*pi*raio;
   printf("o perimetro da pizza é: %f\n", perimetro_da_pizza);
   return 0;
-}// shell ./perimetro_da_pizza
+}

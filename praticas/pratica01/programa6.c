@@ -3,16 +3,16 @@
 #include <math.h>
 
 int main() {
-  float A = 0.0;
-  float B = 0.0;
-  float C = 0.0;
+  float A;
+  float B;
+  float C;
 
   printf("insira o valor de A: ");
-  scanf("%f" , &A);
+  float deu_certo = scanf("%f" , &A);
   printf("insira o valor de B: "); 
-  scanf("%f" , &B);
+  deu_certo = scanf("%f" , &B);
   printf("insira o valor de C: ");
-  scanf("%f" , &C);
+  deu_certo = scanf("%f" , &C);
   float x1 = (-B + sqrt(B*B - 4*A*C))/(2*A);
   float x2 = (-B - sqrt(B*B - 4*A*C))/(2*A);
   printf("x1 = %f\n" , x1);
