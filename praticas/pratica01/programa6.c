@@ -19,4 +19,4 @@ int main() {
   printf("x2 = %f\n" , x2);
   return 0;
 }
- // shell ./bhaskara
+

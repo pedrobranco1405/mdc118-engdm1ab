@@ -15,4 +15,4 @@ int main() {
   printf("a area do triangulo é: %i\n", area);
   return 0;
 }
-// shell ./area_triangulo
+

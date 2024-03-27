@@ -14,4 +14,4 @@ int main() {
   int totalDias = anos * 365 + meses * 30 + dias;
   printf("A idade em dias é: %d\n", totalDias);
   return 0;
-} // shell ./idadeemdias
+}

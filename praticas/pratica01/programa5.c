@@ -10,4 +10,4 @@ int main() {
   float bytes = GB * 1024 * 1024 * 1024;
   printf("o valor em bytes é: %f\n", bytes);
   return 0;
-} // shell ./bytes
+} 

@@ -21,4 +21,4 @@ int main() {
     printf("%d segundos correspondem a %d horas, %d minutos e %d segundos.\n", segundos, horas, minutos, segundos_restantes);
 
     return 0;
-} // shell ./horas
+}

@@ -9,4 +9,4 @@ int main() {
   float altura = sin45 * distancia;
   printf("a altura do avião é: %f\n", altura);
   return 0;
-} // shell ./aviao
+} 
