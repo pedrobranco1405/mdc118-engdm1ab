@@ -1,25 +1,17 @@
 /* 10. Faça um programa em C que calcule a decomposição de um número inteiro qualquer em unidade, dezena, centena e milhar (ex.: 5637 é decomposto em 7 unidades, 3 dezenas, 6 centenas e 5 milhares).*/
 #include <stdio.h>
 
-void decomporNumero(int numero, int *unidades, int *dezenas, int *centenas, int *milhares) {
-    *unidades = numero % 10;
-    *dezenas = (numero / 10) % 10;
-    *centenas = (numero / 100) % 10;
-    *milhares = numero / 1000;
-}
-
 int main() {
-    int numero, unidades, dezenas, centenas, milhares;
+  int numero;
+  int unidade, dezena, centena, milhar;
+  printf("Digite um número inteiro: ");
+  int ok = scanf("%d", &numero);
+  
+  unidade = numero % 10;
+  dezena = (numero / 10) % 10;
+  centena = (numero / 100) % 10;
+  milhar = (numero / 1000) % 10;
 
-    // Solicita ao usuário inserir o número
-    printf("Insira um número inteiro: ");
-    scanf("%d", &numero);
-
-    // Chama a função para decompor o número
-    decomporNumero(numero, &unidades, &dezenas, &centenas, &milhares);
-
-    // Exibe o resultado
-    printf("%d é decomposto em %d unidades, %d dezenas, %d centenas e %d milhares.\n", numero, unidades, dezenas, centenas, milhares);
-
-    return 0;
+  printf("O número %i é decomposto em:\n %i unidades\n %i dezenas\n %i centenas\n %i milhares\n", numero, unidade, dezena, centena, milhar);
+  return 0;
 }
