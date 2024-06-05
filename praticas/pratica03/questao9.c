@@ -21,6 +21,6 @@ int main () {
       printf("Número inválido, tente novamente.");
     }
   }
-  printf("O maior numero foi %i e o menor foi %i", maior, menor);
+      printf("O maior numero foi %i e o menor foi %i", maior, menor);
   return 0;
 }
