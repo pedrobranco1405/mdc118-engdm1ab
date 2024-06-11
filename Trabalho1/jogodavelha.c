@@ -6,7 +6,7 @@ int main (){
 
     do {
         int ok = system("clear");
-        printf("Jogo da Velha\n");
+        printf("Jogo da Velha\n");//menu principal
         printf("1 - JOGAR\n");
         printf("2 - RESULTADOS\n");
         printf("3 - AJUDA\n");
@@ -156,12 +156,12 @@ int main (){
                 printf("- Pressione ENTER p/ voltar -\n");
                 getchar();
                 break;
-            } 
-            case 4: {
+            }  
+            case 4: { //opcao sair
                 printf ("Até logo!\n");
                 break;
-            } //opcao sair
-            default: {
+            } 
+            default: { 
                 printf("Opção inválida! Pressione ENTER para continuar.\n");
                 getchar();
             }
